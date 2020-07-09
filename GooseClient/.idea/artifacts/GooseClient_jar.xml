@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact name="GooseClient:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/GooseClient_jar</output-path>
+    <root id="root">
+      <element id="archive" name="GooseClient.jar">
+        <element id="module-output" name="GooseClient" />
+      </element>
+      <element id="directory" name="libs">
+        <element id="file-copy" path="$PROJECT_DIR$/libs/gson-2.2.4.jar" />
+        <element id="file-copy" path="$PROJECT_DIR$/libs/mina-core-2.0.7.jar" />
+        <element id="file-copy" path="$PROJECT_DIR$/libs/slf4j-api-1.7.25.jar" />
+        <element id="file-copy" path="$PROJECT_DIR$/libs/slf4j-simple-1.7.7.jar" />
+      </element>
+    </root>
+  </artifact>
+</component>

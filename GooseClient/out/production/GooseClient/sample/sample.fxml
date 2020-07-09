@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="520.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" text="IP地址" />
+      <TextField fx:id="tfIp" layoutX="60.0" layoutY="10.0" prefHeight="23.0" prefWidth="148.0" promptText="服务器IP地址，不能为空" />
+      <Label layoutX="230.0" layoutY="14.0" text="端口号" />
+      <TextField fx:id="tfPort" layoutX="270.0" layoutY="10.0" prefHeight="23.0" prefWidth="54.0" promptText="服务器端口号，默认30000" text="30000" />
+      <Button fx:id="btnConnect" layoutX="355.0" layoutY="41.0" mnemonicParsing="false" onAction="#btnConnect" prefHeight="23.0" prefWidth="64.0" text="连接" />
+      <TextField fx:id="tfMsg" layoutX="60.0" layoutY="70.0" prefHeight="23.0" prefWidth="376.0" promptText="发送消息内容，不能为空" />
+      <Button fx:id="btnSend" layoutX="450.0" layoutY="69.0" mnemonicParsing="false" onAction="#btnSend" text="发送消息" />
+      <Button fx:id="btnDiscount" layoutX="450.0" layoutY="41.0" mnemonicParsing="false" onAction="#btnDiscount" text="断开连接" />
+      <ListView fx:id="listView" layoutX="13.0" layoutY="98.0" prefHeight="402.0" prefWidth="770.0" />
+      <Label layoutX="8.0" layoutY="44.0" text="对方Mac" />
+      <Label layoutX="20.0" layoutY="73.0" text="消息" />
+      <TextField fx:id="tfMac" layoutX="60.0" layoutY="41.0" prefHeight="23.0" prefWidth="270.0" promptText="填写对方mac地址，为空则默认只发送到服务器" />
+      <Label fx:id="tvIp" layoutX="596.0" layoutY="44.0" text="Label" />
+      <Label fx:id="tvMac" layoutX="596.0" layoutY="73.0" text="Label" />
+      <Label layoutX="355.0" layoutY="14.0" text="虚拟Mac" />
+      <TextField fx:id="tfVirtualMac" layoutX="415.0" layoutY="10.0" prefHeight="23.0" prefWidth="330.0" promptText="虚拟Mac地址，模拟多客户端测试，不填则默认取本机Mac" />
+   </children>
+</AnchorPane>

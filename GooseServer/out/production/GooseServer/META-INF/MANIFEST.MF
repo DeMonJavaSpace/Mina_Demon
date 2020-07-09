@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Main-Class: sample.Main
+Class-Path: libs/gson-2.2.4.jar libsmina-core-2.0.7.jar libsslf4j-api-1.
+ 7.25.jar libsslf4j-simple-1.7.7.jar
+
